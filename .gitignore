@@ -1,4 +1,44 @@
-.venv/
+# Python artifacts
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Streamlit local files
+.streamlit/*.lock
+.streamlit/credentials.toml
+.streamlit/secrets.toml
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Python virtual environments
+pip-log.txt
+pip-delete-this-directory.txt

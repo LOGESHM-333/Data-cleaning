@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: data-cleaning-studio
+    env: python
+    plan: free
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT
+    autoDeploy: true
+    disk: 1
+    repo: https://github.com/LOGESHM-333/Data-cleaning.git
